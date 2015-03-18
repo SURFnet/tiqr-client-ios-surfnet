@@ -1,0 +1,3 @@
+[submodule "iPhone/Tiqr"]
+	path = iPhone/Tiqr
+	url = https://github.com/surfnet/tiqr-client-ios.git
