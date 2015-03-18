@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E52A3CC17314C6300BDECE5 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E52A3CB17314C6300BDECE5 /* libZXingWidget.a */; };
 		5ED9D44C190FD20A00801DE2 /* tiqr-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44A190FD20A00801DE2 /* tiqr-80.png */; };
 		5ED9D44D190FD20A00801DE2 /* tiqr-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44B190FD20A00801DE2 /* tiqr-120.png */; };
+		921D46011AB9B444004F9F82 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D45FE1AB9B420004F9F82 /* libZXingWidget.a */; };
 		923BF1D916CAD0BA0030B47D /* FooterChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923BF1D716CAD0BA0030B47D /* FooterChildView.xib */; };
 		923BF1DA16CAD0BA0030B47D /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923BF1D816CAD0BA0030B47D /* AboutView.xib */; };
 		9264226316C9552A00DE5202 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264226216C9552A00DE5202 /* Default-568h@2x.png */; };
@@ -112,12 +112,29 @@
 		D0ECAFDD134F2C8A00374202 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ECAFDC134F2C8A00374202 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		921D45FD1AB9B420004F9F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		921D45FF1AB9B420004F9F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D60398D13DF7CAD006F4B51;
+			remoteInfo = ZXingTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5E52A3CA17313F4900BDECE5 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5E52A3CB17314C6300BDECE5 /* libZXingWidget.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZXingWidget.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Tiqr-Surfnet-askpeutogcnketfbkwmhqdpexggw/Build/Products/Debug-iphoneos/libZXingWidget.a"; sourceTree = "<group>"; };
 		5E7D496618EAA84A007909FA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5ED9D44A190FD20A00801DE2 /* tiqr-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-80.png"; sourceTree = "<group>"; };
 		5ED9D44B190FD20A00801DE2 /* tiqr-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-120.png"; sourceTree = "<group>"; };
+		921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../Tiqr/ZXing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		923BF1D016CAB6650030B47D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		923BF1D216CAB6810030B47D /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		923BF1D716CAD0BA0030B47D /* FooterChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterChildView.xib; sourceTree = "<group>"; };
@@ -261,7 +278,6 @@
 		9264239F16C967FB00DE5202 /* PINView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PINView.xib; sourceTree = "<group>"; };
 		926423A016C967FB00DE5202 /* ScanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanView.xib; sourceTree = "<group>"; };
 		926423A116C967FB00DE5202 /* StartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartView.xib; sourceTree = "<group>"; };
-		9264240116C9683600DE5202 /* libZXingWidget.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZXingWidget.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Tiqr-Surfnet-clungtztxkpxrpcrqybotdrhjhiw/Build/Products/Debug-iphoneos/libZXingWidget.a"; sourceTree = "<group>"; };
 		9264240416C9689E00DE5202 /* OCRAProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRAProtocol.h; sourceTree = "<group>"; };
 		92AE3BB817312F2C00A7BD28 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		92AE3BB917312F3000A7BD28 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -301,7 +317,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E52A3CC17314C6300BDECE5 /* libZXingWidget.a in Frameworks */,
+				921D46011AB9B444004F9F82 /* libZXingWidget.a in Frameworks */,
 				D0B2E0CD1358C0F600125C34 /* AudioToolbox.framework in Frameworks */,
 				D0B2E0CB1358C0EF00125C34 /* AddressBookUI.framework in Frameworks */,
 				D0B2E0C71358C07C00125C34 /* AddressBook.framework in Frameworks */,
@@ -321,6 +337,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921D45F91AB9B420004F9F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921D45FE1AB9B420004F9F82 /* libZXingWidget.a */,
+				921D46001AB9B420004F9F82 /* ZXingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		926422F816C967FB00DE5202 /* Tiqr */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,7 +354,7 @@
 				9264236C16C967FB00DE5202 /* Resources */,
 			);
 			name = Tiqr;
-			path = ../../../iPhone/Tiqr;
+			path = ../Tiqr/Tiqr;
 			sourceTree = "<group>";
 		};
 		926422F916C967FB00DE5202 /* Classes */ = {
@@ -612,7 +637,7 @@
 		D0DF04DB134F261B00893290 = {
 			isa = PBXGroup;
 			children = (
-				5E52A3CB17314C6300BDECE5 /* libZXingWidget.a */,
+				921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */,
 				926422F816C967FB00DE5202 /* Tiqr */,
 				D0DF050F134F274F00893290 /* Surfnet */,
 				D0DF04E9134F261B00893290 /* Frameworks */,
@@ -631,7 +656,6 @@
 		D0DF04E9134F261B00893290 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9264240116C9683600DE5202 /* libZXingWidget.a */,
 				D0B2E0CC1358C0F600125C34 /* AudioToolbox.framework */,
 				D0B2E0CA1358C0EF00125C34 /* AddressBookUI.framework */,
 				D0B2E0C61358C07C00125C34 /* AddressBook.framework */,
@@ -727,12 +751,35 @@
 			mainGroup = D0DF04DB134F261B00893290;
 			productRefGroup = D0DF04E7134F261B00893290 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 921D45F91AB9B420004F9F82 /* Products */;
+					ProjectRef = 921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D0DF04E5134F261B00893290 /* tiqr */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		921D45FE1AB9B420004F9F82 /* libZXingWidget.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidget.a;
+			remoteRef = 921D45FD1AB9B420004F9F82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		921D46001AB9B420004F9F82 /* ZXingTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZXingTests.octest;
+			remoteRef = 921D45FF1AB9B420004F9F82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D0DF04E4134F261B00893290 /* Resources */ = {
@@ -921,15 +968,11 @@
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../iPhone/ZXing/iphone/ZXingWidget/Classes/**",
-					"\"$(SRCROOT)/../../../iPhone/ZXing/cpp/core/src/**",
+					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",
+					"\"$(SRCROOT)/../Tiqr/ZXing/cpp/core/src/**",
 				);
 				INFOPLIST_FILE = "Resources/Tiqr-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/Tiqr-Surfnet-askpeutogcnketfbkwmhqdpexggw/Build/Products/Debug-iphoneos\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
@@ -999,15 +1042,11 @@
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../iPhone/ZXing/iphone/ZXingWidget/Classes/**",
-					"\"$(SRCROOT)/../../../iPhone/ZXing/cpp/core/src/**",
+					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",
+					"\"$(SRCROOT)/../Tiqr/ZXing/cpp/core/src/**",
 				);
 				INFOPLIST_FILE = "Resources/Tiqr-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/Tiqr-Surfnet-askpeutogcnketfbkwmhqdpexggw/Build/Products/Debug-iphoneos\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -1025,15 +1064,11 @@
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../iPhone/ZXing/iphone/ZXingWidget/Classes/**",
-					"\"$(SRCROOT)/../../../iPhone/ZXing/cpp/core/src/**",
+					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",
+					"\"$(SRCROOT)/../Tiqr/ZXing/cpp/core/src/**",
 				);
 				INFOPLIST_FILE = "Resources/Tiqr-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/Tiqr-Surfnet-askpeutogcnketfbkwmhqdpexggw/Build/Products/Debug-iphoneos\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
