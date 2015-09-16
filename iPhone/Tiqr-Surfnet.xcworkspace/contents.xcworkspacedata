@@ -4,7 +4,4 @@
    <FileRef
       location = "group:Tiqr-Surfnet/Tiqr-Surfnet.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:../../iPhone/ZXing/iphone/ZXingWidget/ZXingWidget.xcodeproj">
-   </FileRef>
 </Workspace>

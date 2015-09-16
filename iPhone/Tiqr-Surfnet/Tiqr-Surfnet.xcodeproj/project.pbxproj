@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5ED9D44C190FD20A00801DE2 /* tiqr-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44A190FD20A00801DE2 /* tiqr-80.png */; };
 		5ED9D44D190FD20A00801DE2 /* tiqr-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44B190FD20A00801DE2 /* tiqr-120.png */; };
-		921D46011AB9B444004F9F82 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D45FE1AB9B420004F9F82 /* libZXingWidget.a */; };
 		923BF1D916CAD0BA0030B47D /* FooterChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923BF1D716CAD0BA0030B47D /* FooterChildView.xib */; };
 		923BF1DA16CAD0BA0030B47D /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923BF1D816CAD0BA0030B47D /* AboutView.xib */; };
 		9264226316C9552A00DE5202 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264226216C9552A00DE5202 /* Default-568h@2x.png */; };
@@ -48,11 +47,9 @@
 		926423C716C967FC00DE5202 /* OCRAWrapper_v1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264234816C967FB00DE5202 /* OCRAWrapper_v1.m */; };
 		926423C816C967FC00DE5202 /* PINViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264234B16C967FB00DE5202 /* PINViewController.m */; };
 		926423C916C967FC00DE5202 /* ScanOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264234D16C967FB00DE5202 /* ScanOverlayView.m */; };
-		926423CA16C967FC00DE5202 /* ScanViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9264235016C967FB00DE5202 /* ScanViewController.mm */; };
 		926423CB16C967FC00DE5202 /* SecretStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264235216C967FB00DE5202 /* SecretStore.m */; };
 		926423CC16C967FC00DE5202 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264235516C967FB00DE5202 /* StartViewController.m */; };
 		926423CD16C967FC00DE5202 /* TiqrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264235716C967FB00DE5202 /* TiqrAppDelegate.m */; };
-		926423CF16C967FC00DE5202 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264235B16C967FB00DE5202 /* JSONKit.m */; };
 		926423D016C967FC00DE5202 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264235D16C967FB00DE5202 /* MBProgressHUD.m */; };
 		926423D116C967FC00DE5202 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264235F16C967FB00DE5202 /* Reachability.m */; };
 		926423D816C967FC00DE5202 /* cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9264236E16C967FB00DE5202 /* cowbell.wav */; };
@@ -83,6 +80,7 @@
 		926423F816C967FC00DE5202 /* PINView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9264239F16C967FB00DE5202 /* PINView.xib */; };
 		926423F916C967FC00DE5202 /* ScanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926423A016C967FB00DE5202 /* ScanView.xib */; };
 		926423FA16C967FC00DE5202 /* StartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926423A116C967FB00DE5202 /* StartView.xib */; };
+		CDAF02501BA960B6004A7565 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAF024F1BA960B6004A7565 /* ScanViewController.m */; };
 		D076CF04134F31F900FE762A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D076CF03134F31F900FE762A /* MainWindow.xib */; };
 		D076CF16134F48E400FE762A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D076CF15134F48E400FE762A /* Entitlements.plist */; };
 		D076CF24134F4E2900FE762A /* Icon-Pad.png in Resources */ = {isa = PBXBuildFile; fileRef = D076CF1B134F4E2900FE762A /* Icon-Pad.png */; };
@@ -105,36 +103,18 @@
 		D0DF04ED134F261B00893290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF04EC134F261B00893290 /* Foundation.framework */; };
 		D0DF04EF134F261B00893290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF04EE134F261B00893290 /* CoreGraphics.framework */; };
 		D0DF0584134F27B900893290 /* instructions.html in Resources */ = {isa = PBXBuildFile; fileRef = D0DF054A134F27B900893290 /* instructions.html */; };
-		D0ECAFD5134F2B6500374202 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D0ECAFD3134F2B6500374202 /* main.mm */; };
+		D0ECAFD5134F2B6500374202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ECAFD3134F2B6500374202 /* main.m */; };
 		D0ECAFD7134F2C6900374202 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ECAFD6134F2C6900374202 /* CoreData.framework */; };
 		D0ECAFD9134F2C7A00374202 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ECAFD8134F2C7A00374202 /* Security.framework */; };
 		D0ECAFDB134F2C8300374202 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ECAFDA134F2C8300374202 /* SystemConfiguration.framework */; };
 		D0ECAFDD134F2C8A00374202 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ECAFDC134F2C8A00374202 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		921D45FD1AB9B420004F9F82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = ZXingWidget;
-		};
-		921D45FF1AB9B420004F9F82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D60398D13DF7CAD006F4B51;
-			remoteInfo = ZXingTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		5E52A3CA17313F4900BDECE5 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5E7D496618EAA84A007909FA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5ED9D44A190FD20A00801DE2 /* tiqr-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-80.png"; sourceTree = "<group>"; };
 		5ED9D44B190FD20A00801DE2 /* tiqr-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-120.png"; sourceTree = "<group>"; };
-		921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../Tiqr/ZXing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		923BF1D016CAB6650030B47D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		923BF1D216CAB6810030B47D /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		923BF1D716CAD0BA0030B47D /* FooterChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterChildView.xib; sourceTree = "<group>"; };
@@ -226,7 +206,6 @@
 		9264234D16C967FB00DE5202 /* ScanOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanOverlayView.m; sourceTree = "<group>"; };
 		9264234E16C967FB00DE5202 /* ScanViewController-Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ScanViewController-Protected.h"; sourceTree = "<group>"; };
 		9264234F16C967FB00DE5202 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
-		9264235016C967FB00DE5202 /* ScanViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScanViewController.mm; sourceTree = "<group>"; };
 		9264235116C967FB00DE5202 /* SecretStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretStore.h; sourceTree = "<group>"; };
 		9264235216C967FB00DE5202 /* SecretStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretStore.m; sourceTree = "<group>"; };
 		9264235316C967FB00DE5202 /* StartViewController-Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StartViewController-Protected.h"; sourceTree = "<group>"; };
@@ -235,8 +214,6 @@
 		9264235616C967FB00DE5202 /* TiqrAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiqrAppDelegate.h; sourceTree = "<group>"; };
 		9264235716C967FB00DE5202 /* TiqrAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiqrAppDelegate.m; sourceTree = "<group>"; };
 		9264235816C967FB00DE5202 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
-		9264235A16C967FB00DE5202 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		9264235B16C967FB00DE5202 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		9264235C16C967FB00DE5202 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		9264235D16C967FB00DE5202 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		9264235E16C967FB00DE5202 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -282,6 +259,7 @@
 		92AE3BB817312F2C00A7BD28 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		92AE3BB917312F3000A7BD28 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C7B96C7C16FAC171001EC65E /* Tiqr 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 2.xcdatamodel"; sourceTree = "<group>"; };
+		CDAF024F1BA960B6004A7565 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 		D076CF03134F31F900FE762A /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		D076CF15134F48E400FE762A /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		D076CF1B134F4E2900FE762A /* Icon-Pad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Pad.png"; sourceTree = "<group>"; };
@@ -304,7 +282,7 @@
 		D0DF04EC134F261B00893290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0DF04EE134F261B00893290 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D0ECAF37134F28CC00374202 /* Tiqr-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tiqr-Info.plist"; sourceTree = "<group>"; };
-		D0ECAFD3134F2B6500374202 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		D0ECAFD3134F2B6500374202 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0ECAFD4134F2B6500374202 /* Tiqr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tiqr_Prefix.pch; sourceTree = "<group>"; };
 		D0ECAFD6134F2C6900374202 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D0ECAFD8134F2C7A00374202 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -317,7 +295,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921D46011AB9B444004F9F82 /* libZXingWidget.a in Frameworks */,
 				D0B2E0CD1358C0F600125C34 /* AudioToolbox.framework in Frameworks */,
 				D0B2E0CB1358C0EF00125C34 /* AddressBookUI.framework in Frameworks */,
 				D0B2E0C71358C07C00125C34 /* AddressBook.framework in Frameworks */,
@@ -337,15 +314,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		921D45F91AB9B420004F9F82 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				921D45FE1AB9B420004F9F82 /* libZXingWidget.a */,
-				921D46001AB9B420004F9F82 /* ZXingTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		926422F816C967FB00DE5202 /* Tiqr */ = {
 			isa = PBXGroup;
 			children = (
@@ -404,7 +372,7 @@
 				9264234D16C967FB00DE5202 /* ScanOverlayView.m */,
 				9264234E16C967FB00DE5202 /* ScanViewController-Protected.h */,
 				9264234F16C967FB00DE5202 /* ScanViewController.h */,
-				9264235016C967FB00DE5202 /* ScanViewController.mm */,
+				CDAF024F1BA960B6004A7565 /* ScanViewController.m */,
 				9264235116C967FB00DE5202 /* SecretStore.h */,
 				9264235216C967FB00DE5202 /* SecretStore.m */,
 				9264235616C967FB00DE5202 /* TiqrAppDelegate.h */,
@@ -416,8 +384,6 @@
 		9264235916C967FB00DE5202 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				9264235A16C967FB00DE5202 /* JSONKit.h */,
-				9264235B16C967FB00DE5202 /* JSONKit.m */,
 				9264235C16C967FB00DE5202 /* MBProgressHUD.h */,
 				9264235D16C967FB00DE5202 /* MBProgressHUD.m */,
 				9264235E16C967FB00DE5202 /* Reachability.h */,
@@ -637,7 +603,6 @@
 		D0DF04DB134F261B00893290 = {
 			isa = PBXGroup;
 			children = (
-				921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */,
 				926422F816C967FB00DE5202 /* Tiqr */,
 				D0DF050F134F274F00893290 /* Surfnet */,
 				D0DF04E9134F261B00893290 /* Frameworks */,
@@ -678,7 +643,7 @@
 			children = (
 				D0ECAFC4134F2A2E00374202 /* Resources */,
 				D0ECAFD4134F2B6500374202 /* Tiqr_Prefix.pch */,
-				D0ECAFD3134F2B6500374202 /* main.mm */,
+				D0ECAFD3134F2B6500374202 /* main.m */,
 			);
 			name = Surfnet;
 			sourceTree = "<group>";
@@ -719,7 +684,7 @@
 		D0DF04DD134F261B00893290 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0640;
 				TargetAttributes = {
 					D0DF04E5134F261B00893290 = {
 						DevelopmentTeam = ZYJ4TZX4UU;
@@ -751,35 +716,12 @@
 			mainGroup = D0DF04DB134F261B00893290;
 			productRefGroup = D0DF04E7134F261B00893290 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 921D45F91AB9B420004F9F82 /* Products */;
-					ProjectRef = 921D45F81AB9B420004F9F82 /* ZXingWidget.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D0DF04E5134F261B00893290 /* tiqr */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		921D45FE1AB9B420004F9F82 /* libZXingWidget.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libZXingWidget.a;
-			remoteRef = 921D45FD1AB9B420004F9F82 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		921D46001AB9B420004F9F82 /* ZXingTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ZXingTests.octest;
-			remoteRef = 921D45FF1AB9B420004F9F82 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D0DF04E4134F261B00893290 /* Resources */ = {
@@ -841,7 +783,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0ECAFD5134F2B6500374202 /* main.mm in Sources */,
+				CDAF02501BA960B6004A7565 /* ScanViewController.m in Sources */,
+				D0ECAFD5134F2B6500374202 /* main.m in Sources */,
 				926423A716C967FC00DE5202 /* AboutViewController.m in Sources */,
 				926423A816C967FC00DE5202 /* AuthenticationChallenge.m in Sources */,
 				926423A916C967FC00DE5202 /* AuthenticationConfirmationRequest.m in Sources */,
@@ -877,11 +820,9 @@
 				926423C716C967FC00DE5202 /* OCRAWrapper_v1.m in Sources */,
 				926423C816C967FC00DE5202 /* PINViewController.m in Sources */,
 				926423C916C967FC00DE5202 /* ScanOverlayView.m in Sources */,
-				926423CA16C967FC00DE5202 /* ScanViewController.mm in Sources */,
 				926423CB16C967FC00DE5202 /* SecretStore.m in Sources */,
 				926423CC16C967FC00DE5202 /* StartViewController.m in Sources */,
 				926423CD16C967FC00DE5202 /* TiqrAppDelegate.m in Sources */,
-				926423CF16C967FC00DE5202 /* JSONKit.m in Sources */,
 				926423D016C967FC00DE5202 /* MBProgressHUD.m in Sources */,
 				926423D116C967FC00DE5202 /* Reachability.m in Sources */,
 				926423DE16C967FC00DE5202 /* Tiqr.xcdatamodeld in Sources */,
@@ -936,20 +877,28 @@
 		D076CF17134F4C9D00FE762A /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Resources/Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "";
@@ -961,6 +910,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -972,7 +922,7 @@
 					"\"$(SRCROOT)/../Tiqr/ZXing/cpp/core/src/**",
 				);
 				INFOPLIST_FILE = "Resources/Tiqr-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
@@ -983,23 +933,32 @@
 		D0DF0505134F261C00893290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Resources/Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1009,20 +968,28 @@
 		D0DF0506134F261C00893290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Resources/Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "";
@@ -1034,6 +1001,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -1046,7 +1014,7 @@
 					"\"$(SRCROOT)/../Tiqr/ZXing/cpp/core/src/**",
 				);
 				INFOPLIST_FILE = "Resources/Tiqr-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -1057,6 +1025,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -1068,7 +1037,7 @@
 					"\"$(SRCROOT)/../Tiqr/ZXing/cpp/core/src/**",
 				);
 				INFOPLIST_FILE = "Resources/Tiqr-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
