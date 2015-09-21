@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		5ED9D44C190FD20A00801DE2 /* tiqr-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44A190FD20A00801DE2 /* tiqr-80.png */; };
 		5ED9D44D190FD20A00801DE2 /* tiqr-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44B190FD20A00801DE2 /* tiqr-120.png */; };
-		923BF1D916CAD0BA0030B47D /* FooterChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923BF1D716CAD0BA0030B47D /* FooterChildView.xib */; };
-		923BF1DA16CAD0BA0030B47D /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923BF1D816CAD0BA0030B47D /* AboutView.xib */; };
 		9264226316C9552A00DE5202 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264226216C9552A00DE5202 /* Default-568h@2x.png */; };
 		926423A716C967FC00DE5202 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926422FC16C967FB00DE5202 /* AboutViewController.m */; };
 		926423A816C967FC00DE5202 /* AuthenticationChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 926422FF16C967FB00DE5202 /* AuthenticationChallenge.m */; };
@@ -29,7 +27,6 @@
 		926423B516C967FC00DE5202 /* EnrollmentSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264232116C967FB00DE5202 /* EnrollmentSummaryViewController.m */; };
 		926423B616C967FC00DE5202 /* ErrorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264232416C967FB00DE5202 /* ErrorController.m */; };
 		926423B716C967FC00DE5202 /* ErrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264232616C967FB00DE5202 /* ErrorViewController.m */; };
-		926423B816C967FC00DE5202 /* FooterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264232916C967FB00DE5202 /* FooterController.m */; };
 		926423B916C967FC00DE5202 /* HOTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264232B16C967FB00DE5202 /* HOTP.m */; };
 		926423BA16C967FC00DE5202 /* Identity+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264232D16C967FB00DE5202 /* Identity+Utils.m */; };
 		926423BB16C967FC00DE5202 /* Identity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264232F16C967FB00DE5202 /* Identity.m */; };
@@ -57,15 +54,6 @@
 		926423DA16C967FC00DE5202 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9264237216C967FB00DE5202 /* Localizable.strings */; };
 		926423DC16C967FC00DE5202 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9264237D16C967FB00DE5202 /* Settings.bundle */; };
 		926423DE16C967FC00DE5202 /* Tiqr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9264238116C967FB00DE5202 /* Tiqr.xcdatamodeld */; };
-		926423DF16C967FC00DE5202 /* egeniq-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238416C967FB00DE5202 /* egeniq-logo.png */; };
-		926423E016C967FC00DE5202 /* egeniq-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238516C967FB00DE5202 /* egeniq-logo@2x.png */; };
-		926423E116C967FC00DE5202 /* identities.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238616C967FB00DE5202 /* identities.png */; };
-		926423E216C967FC00DE5202 /* stroomt-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238716C967FB00DE5202 /* stroomt-logo.png */; };
-		926423E316C967FC00DE5202 /* stroomt-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238816C967FB00DE5202 /* stroomt-logo@2x.png */; };
-		926423E616C967FC00DE5202 /* tiqr-bw-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238B16C967FB00DE5202 /* tiqr-bw-logo.png */; };
-		926423E716C967FC00DE5202 /* tiqr-bw-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238C16C967FB00DE5202 /* tiqr-bw-logo@2x.png */; };
-		926423E816C967FC00DE5202 /* tiqr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238D16C967FB00DE5202 /* tiqr-logo.png */; };
-		926423E916C967FC00DE5202 /* tiqr-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264238E16C967FB00DE5202 /* tiqr-logo@2x.png */; };
 		926423EB16C967FC00DE5202 /* AuthenticationConfirmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9264239116C967FB00DE5202 /* AuthenticationConfirmView.xib */; };
 		926423EC16C967FC00DE5202 /* AuthenticationFallbackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9264239216C967FB00DE5202 /* AuthenticationFallbackView.xib */; };
 		926423ED16C967FC00DE5202 /* AuthenticationIdentityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9264239316C967FB00DE5202 /* AuthenticationIdentityView.xib */; };
@@ -81,7 +69,11 @@
 		926423F916C967FC00DE5202 /* ScanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926423A016C967FB00DE5202 /* ScanView.xib */; };
 		926423FA16C967FC00DE5202 /* StartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926423A116C967FB00DE5202 /* StartView.xib */; };
 		CDAF02501BA960B6004A7565 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAF024F1BA960B6004A7565 /* ScanViewController.m */; };
-		D076CF04134F31F900FE762A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D076CF03134F31F900FE762A /* MainWindow.xib */; };
+		CDBB08C51BB002F4008D8F94 /* TiqrNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBB08C21BB002F4008D8F94 /* TiqrNavigationBar.m */; };
+		CDBB08C61BB002F4008D8F94 /* TiqrToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBB08C41BB002F4008D8F94 /* TiqrToolbar.m */; };
+		CDBB08C91BB0030E008D8F94 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBB08C71BB0030E008D8F94 /* AboutView.xib */; };
+		CDBB08CA1BB0030E008D8F94 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBB08C81BB0030E008D8F94 /* MainWindow.xib */; };
+		CDBB08CC1BB00328008D8F94 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBB08CB1BB00328008D8F94 /* images.xcassets */; };
 		D076CF16134F48E400FE762A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D076CF15134F48E400FE762A /* Entitlements.plist */; };
 		D076CF24134F4E2900FE762A /* Icon-Pad.png in Resources */ = {isa = PBXBuildFile; fileRef = D076CF1B134F4E2900FE762A /* Icon-Pad.png */; };
 		D076CF25134F4E2900FE762A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D076CF1C134F4E2900FE762A /* Icon-Small-50.png */; };
@@ -117,8 +109,6 @@
 		5ED9D44B190FD20A00801DE2 /* tiqr-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-120.png"; sourceTree = "<group>"; };
 		923BF1D016CAB6650030B47D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		923BF1D216CAB6810030B47D /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
-		923BF1D716CAD0BA0030B47D /* FooterChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterChildView.xib; sourceTree = "<group>"; };
-		923BF1D816CAD0BA0030B47D /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
 		9264226216C9552A00DE5202 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		926422FA16C967FB00DE5202 /* AboutViewController-Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AboutViewController-Protected.h"; sourceTree = "<group>"; };
 		926422FB16C967FB00DE5202 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
@@ -165,9 +155,6 @@
 		9264232416C967FB00DE5202 /* ErrorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorController.m; sourceTree = "<group>"; };
 		9264232516C967FB00DE5202 /* ErrorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorViewController.h; sourceTree = "<group>"; };
 		9264232616C967FB00DE5202 /* ErrorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorViewController.m; sourceTree = "<group>"; };
-		9264232716C967FB00DE5202 /* FooterController-Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FooterController-Protected.h"; sourceTree = "<group>"; };
-		9264232816C967FB00DE5202 /* FooterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterController.h; sourceTree = "<group>"; };
-		9264232916C967FB00DE5202 /* FooterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterController.m; sourceTree = "<group>"; };
 		9264232A16C967FB00DE5202 /* HOTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOTP.h; sourceTree = "<group>"; };
 		9264232B16C967FB00DE5202 /* HOTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOTP.m; sourceTree = "<group>"; };
 		9264232C16C967FB00DE5202 /* Identity+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Identity+Utils.h"; sourceTree = "<group>"; };
@@ -232,15 +219,6 @@
 		9264237E16C967FB00DE5202 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9264237F16C967FB00DE5202 /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr; path = sr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9264238216C967FB00DE5202 /* Tiqr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tiqr.xcdatamodel; sourceTree = "<group>"; };
-		9264238416C967FB00DE5202 /* egeniq-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egeniq-logo.png"; sourceTree = "<group>"; };
-		9264238516C967FB00DE5202 /* egeniq-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egeniq-logo@2x.png"; sourceTree = "<group>"; };
-		9264238616C967FB00DE5202 /* identities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = identities.png; sourceTree = "<group>"; };
-		9264238716C967FB00DE5202 /* stroomt-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stroomt-logo.png"; sourceTree = "<group>"; };
-		9264238816C967FB00DE5202 /* stroomt-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stroomt-logo@2x.png"; sourceTree = "<group>"; };
-		9264238B16C967FB00DE5202 /* tiqr-bw-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-bw-logo.png"; sourceTree = "<group>"; };
-		9264238C16C967FB00DE5202 /* tiqr-bw-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-bw-logo@2x.png"; sourceTree = "<group>"; };
-		9264238D16C967FB00DE5202 /* tiqr-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-logo.png"; sourceTree = "<group>"; };
-		9264238E16C967FB00DE5202 /* tiqr-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiqr-logo@2x.png"; sourceTree = "<group>"; };
 		9264239116C967FB00DE5202 /* AuthenticationConfirmView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationConfirmView.xib; sourceTree = "<group>"; };
 		9264239216C967FB00DE5202 /* AuthenticationFallbackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationFallbackView.xib; sourceTree = "<group>"; };
 		9264239316C967FB00DE5202 /* AuthenticationIdentityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationIdentityView.xib; sourceTree = "<group>"; };
@@ -260,7 +238,13 @@
 		92AE3BB917312F3000A7BD28 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C7B96C7C16FAC171001EC65E /* Tiqr 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 2.xcdatamodel"; sourceTree = "<group>"; };
 		CDAF024F1BA960B6004A7565 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
-		D076CF03134F31F900FE762A /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CDBB08C11BB002F4008D8F94 /* TiqrNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiqrNavigationBar.h; sourceTree = "<group>"; };
+		CDBB08C21BB002F4008D8F94 /* TiqrNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiqrNavigationBar.m; sourceTree = "<group>"; };
+		CDBB08C31BB002F4008D8F94 /* TiqrToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiqrToolbar.h; sourceTree = "<group>"; };
+		CDBB08C41BB002F4008D8F94 /* TiqrToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiqrToolbar.m; sourceTree = "<group>"; };
+		CDBB08C71BB0030E008D8F94 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		CDBB08C81BB0030E008D8F94 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CDBB08CB1BB00328008D8F94 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		D076CF15134F48E400FE762A /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		D076CF1B134F4E2900FE762A /* Icon-Pad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Pad.png"; sourceTree = "<group>"; };
 		D076CF1C134F4E2900FE762A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
@@ -330,6 +314,10 @@
 			children = (
 				9264240516C9A5F300DE5202 /* UI */,
 				9264240316C9687500DE5202 /* Authentication */,
+				CDBB08C11BB002F4008D8F94 /* TiqrNavigationBar.h */,
+				CDBB08C21BB002F4008D8F94 /* TiqrNavigationBar.m */,
+				CDBB08C31BB002F4008D8F94 /* TiqrToolbar.h */,
+				CDBB08C41BB002F4008D8F94 /* TiqrToolbar.m */,
 				926422FD16C967FB00DE5202 /* AuthenticationChallenge-Protected.h */,
 				926422FE16C967FB00DE5202 /* AuthenticationChallenge.h */,
 				926422FF16C967FB00DE5202 /* AuthenticationChallenge.m */,
@@ -343,7 +331,6 @@
 				9264231516C967FB00DE5202 /* EnrollmentChallenge.m */,
 				9264231616C967FB00DE5202 /* EnrollmentConfirmationRequest.h */,
 				9264231716C967FB00DE5202 /* EnrollmentConfirmationRequest.m */,
-				9264232916C967FB00DE5202 /* FooterController.m */,
 				9264232C16C967FB00DE5202 /* Identity+Utils.h */,
 				9264232D16C967FB00DE5202 /* Identity+Utils.m */,
 				9264232E16C967FB00DE5202 /* Identity.h */,
@@ -434,17 +421,9 @@
 		9264238316C967FB00DE5202 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CDBB08CB1BB00328008D8F94 /* images.xcassets */,
 				5ED9D44A190FD20A00801DE2 /* tiqr-80.png */,
 				5ED9D44B190FD20A00801DE2 /* tiqr-120.png */,
-				9264238416C967FB00DE5202 /* egeniq-logo.png */,
-				9264238516C967FB00DE5202 /* egeniq-logo@2x.png */,
-				9264238616C967FB00DE5202 /* identities.png */,
-				9264238716C967FB00DE5202 /* stroomt-logo.png */,
-				9264238816C967FB00DE5202 /* stroomt-logo@2x.png */,
-				9264238B16C967FB00DE5202 /* tiqr-bw-logo.png */,
-				9264238C16C967FB00DE5202 /* tiqr-bw-logo@2x.png */,
-				9264238D16C967FB00DE5202 /* tiqr-logo.png */,
-				9264238E16C967FB00DE5202 /* tiqr-logo@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -452,6 +431,8 @@
 		9264238F16C967FB00DE5202 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CDBB08C71BB0030E008D8F94 /* AboutView.xib */,
+				CDBB08C81BB0030E008D8F94 /* MainWindow.xib */,
 				9264239116C967FB00DE5202 /* AuthenticationConfirmView.xib */,
 				9264239216C967FB00DE5202 /* AuthenticationFallbackView.xib */,
 				9264239316C967FB00DE5202 /* AuthenticationIdentityView.xib */,
@@ -552,8 +533,6 @@
 				9264232416C967FB00DE5202 /* ErrorController.m */,
 				9264232516C967FB00DE5202 /* ErrorViewController.h */,
 				9264232616C967FB00DE5202 /* ErrorViewController.m */,
-				9264232716C967FB00DE5202 /* FooterController-Protected.h */,
-				9264232816C967FB00DE5202 /* FooterController.h */,
 				926422FA16C967FB00DE5202 /* AboutViewController-Protected.h */,
 				926422FB16C967FB00DE5202 /* AboutViewController.h */,
 				926422FC16C967FB00DE5202 /* AboutViewController.m */,
@@ -567,8 +546,6 @@
 		D076CF01134F31D300FE762A /* General */ = {
 			isa = PBXGroup;
 			children = (
-				923BF1D716CAD0BA0030B47D /* FooterChildView.xib */,
-				923BF1D816CAD0BA0030B47D /* AboutView.xib */,
 				D076CF15134F48E400FE762A /* Entitlements.plist */,
 				D0ECAF37134F28CC00374202 /* Tiqr-Info.plist */,
 			);
@@ -578,7 +555,6 @@
 		D076CF02134F31DD00FE762A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D076CF03134F31F900FE762A /* MainWindow.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -685,11 +661,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
-				TargetAttributes = {
-					D0DF04E5134F261B00893290 = {
-						DevelopmentTeam = ZYJ4TZX4UU;
-					};
-				};
 			};
 			buildConfigurationList = D0DF04E0134F261B00893290 /* Build configuration list for PBXProject "Tiqr-Surfnet" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -728,8 +699,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBB08CA1BB0030E008D8F94 /* MainWindow.xib in Resources */,
 				D0DF0584134F27B900893290 /* instructions.html in Resources */,
-				D076CF04134F31F900FE762A /* MainWindow.xib in Resources */,
 				D076CF16134F48E400FE762A /* Entitlements.plist in Resources */,
 				D076CF24134F4E2900FE762A /* Icon-Pad.png in Resources */,
 				D076CF25134F4E2900FE762A /* Icon-Small-50.png in Resources */,
@@ -746,17 +717,9 @@
 				926423D916C967FC00DE5202 /* animals.ttf in Resources */,
 				926423DA16C967FC00DE5202 /* Localizable.strings in Resources */,
 				926423DC16C967FC00DE5202 /* Settings.bundle in Resources */,
-				926423DF16C967FC00DE5202 /* egeniq-logo.png in Resources */,
 				5ED9D44C190FD20A00801DE2 /* tiqr-80.png in Resources */,
-				926423E016C967FC00DE5202 /* egeniq-logo@2x.png in Resources */,
-				926423E116C967FC00DE5202 /* identities.png in Resources */,
-				926423E216C967FC00DE5202 /* stroomt-logo.png in Resources */,
 				5ED9D44D190FD20A00801DE2 /* tiqr-120.png in Resources */,
-				926423E316C967FC00DE5202 /* stroomt-logo@2x.png in Resources */,
-				926423E616C967FC00DE5202 /* tiqr-bw-logo.png in Resources */,
-				926423E716C967FC00DE5202 /* tiqr-bw-logo@2x.png in Resources */,
-				926423E816C967FC00DE5202 /* tiqr-logo.png in Resources */,
-				926423E916C967FC00DE5202 /* tiqr-logo@2x.png in Resources */,
+				CDBB08C91BB0030E008D8F94 /* AboutView.xib in Resources */,
 				926423EB16C967FC00DE5202 /* AuthenticationConfirmView.xib in Resources */,
 				926423EC16C967FC00DE5202 /* AuthenticationFallbackView.xib in Resources */,
 				926423ED16C967FC00DE5202 /* AuthenticationIdentityView.xib in Resources */,
@@ -766,13 +729,12 @@
 				926423F116C967FC00DE5202 /* ErrorChildView.xib in Resources */,
 				926423F216C967FC00DE5202 /* ErrorView.xib in Resources */,
 				926423F416C967FC00DE5202 /* start.html in Resources */,
+				CDBB08CC1BB00328008D8F94 /* images.xcassets in Resources */,
 				926423F516C967FC00DE5202 /* IdentityEditView.xib in Resources */,
 				926423F616C967FC00DE5202 /* IdentityListView.xib in Resources */,
 				926423F816C967FC00DE5202 /* PINView.xib in Resources */,
 				926423F916C967FC00DE5202 /* ScanView.xib in Resources */,
 				926423FA16C967FC00DE5202 /* StartView.xib in Resources */,
-				923BF1D916CAD0BA0030B47D /* FooterChildView.xib in Resources */,
-				923BF1DA16CAD0BA0030B47D /* AboutView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,9 +752,11 @@
 				926423A916C967FC00DE5202 /* AuthenticationConfirmationRequest.m in Sources */,
 				926423AA16C967FC00DE5202 /* AuthenticationConfirmViewController.m in Sources */,
 				926423AB16C967FC00DE5202 /* AuthenticationFallbackViewController.m in Sources */,
+				CDBB08C61BB002F4008D8F94 /* TiqrToolbar.m in Sources */,
 				926423AC16C967FC00DE5202 /* AuthenticationIdentityViewController.m in Sources */,
 				926423AD16C967FC00DE5202 /* AuthenticationPINViewController.m in Sources */,
 				926423AE16C967FC00DE5202 /* AuthenticationSummaryViewController.m in Sources */,
+				CDBB08C51BB002F4008D8F94 /* TiqrNavigationBar.m in Sources */,
 				926423AF16C967FC00DE5202 /* Challenge.m in Sources */,
 				926423B016C967FC00DE5202 /* EnrollmentChallenge.m in Sources */,
 				926423B116C967FC00DE5202 /* EnrollmentConfirmationRequest.m in Sources */,
@@ -802,7 +766,6 @@
 				926423B516C967FC00DE5202 /* EnrollmentSummaryViewController.m in Sources */,
 				926423B616C967FC00DE5202 /* ErrorController.m in Sources */,
 				926423B716C967FC00DE5202 /* ErrorViewController.m in Sources */,
-				926423B816C967FC00DE5202 /* FooterController.m in Sources */,
 				926423B916C967FC00DE5202 /* HOTP.m in Sources */,
 				926423BA16C967FC00DE5202 /* Identity+Utils.m in Sources */,
 				926423BB16C967FC00DE5202 /* Identity.m in Sources */,
