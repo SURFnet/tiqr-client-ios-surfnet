@@ -661,6 +661,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					D0DF04E5134F261B00893290 = {
+						DevelopmentTeam = ZYJ4TZX4UU;
+					};
+				};
 			};
 			buildConfigurationList = D0DF04E0134F261B00893290 /* Build configuration list for PBXProject "Tiqr-Surfnet" */;
 			compatibilityVersion = "Xcode 3.2";
