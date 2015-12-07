@@ -55,9 +55,20 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.5.1</string>
+	<string>2.5.2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>demo.tiqr.org</key>
+			<dict>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 	<key>SANotificationRegistrationURL</key>
@@ -84,17 +95,6 @@
 	</array>
 	<key>UTExportedTypeDeclarations</key>
 	<array/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>demo.tiqr.org</key>
-			<dict>
-				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
 	<key>UTImportedTypeDeclarations</key>
 	<array/>
 </dict>
