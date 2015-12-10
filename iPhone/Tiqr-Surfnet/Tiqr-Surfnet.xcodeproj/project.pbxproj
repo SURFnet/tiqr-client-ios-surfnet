@@ -1177,7 +1177,7 @@
 				CD16B94F1BFB71C100BD776D /* Tiqr 2.xcdatamodel */,
 				CD16B9501BFB71C100BD776D /* Tiqr.xcdatamodel */,
 			);
-			currentVersion = CD16B9501BFB71C100BD776D /* Tiqr.xcdatamodel */;
+			currentVersion = CD16B94F1BFB71C100BD776D /* Tiqr 2.xcdatamodel */;
 			name = Tiqr.xcdatamodeld;
 			path = Resources/General/Tiqr.xcdatamodeld;
 			sourceTree = "<group>";
