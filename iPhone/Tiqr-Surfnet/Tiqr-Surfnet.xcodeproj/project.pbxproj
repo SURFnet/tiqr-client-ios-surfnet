@@ -10,9 +10,9 @@
 		5ED9D44C190FD20A00801DE2 /* tiqr-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44A190FD20A00801DE2 /* tiqr-80.png */; };
 		5ED9D44D190FD20A00801DE2 /* tiqr-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44B190FD20A00801DE2 /* tiqr-120.png */; };
 		9264226316C9552A00DE5202 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264226216C9552A00DE5202 /* Default-568h@2x.png */; };
-		CD16B9521BFB71C100BD776D /* Tiqr.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = CD16B9511BFB71C100BD776D /* Tiqr.xcdatamodeld */; };
 		CD16B9541BFB71C600BD776D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD16B9531BFB71C600BD776D /* Settings.bundle */; };
 		CD16B9631BFB71CC00BD776D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD16B9621BFB71CC00BD776D /* Localizable.strings */; };
+		CD3028D71C4517820085EE7D /* Tiqr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD3028D41C4517820085EE7D /* Tiqr.xcdatamodeld */; };
 		CD4F3C211BFB711E00E72491 /* NotificationRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3BBE1BFB711E00E72491 /* NotificationRegistration.m */; };
 		CD4F3C221BFB711E00E72491 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3BC01BFB711E00E72491 /* NSData+Hex.m */; };
 		CD4F3C231BFB711E00E72491 /* NSString+DecodeURL.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3BC21BFB711E00E72491 /* NSString+DecodeURL.m */; };
@@ -107,8 +107,6 @@
 		5ED9D44A190FD20A00801DE2 /* tiqr-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiqr-80.png"; path = "../../Tiqr/Tiqr/Resources/Images/tiqr-80.png"; sourceTree = "<group>"; };
 		5ED9D44B190FD20A00801DE2 /* tiqr-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiqr-120.png"; path = "../../Tiqr/Tiqr/Resources/Images/tiqr-120.png"; sourceTree = "<group>"; };
 		9264226216C9552A00DE5202 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		CD16B94F1BFB71C100BD776D /* Tiqr 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 2.xcdatamodel"; sourceTree = "<group>"; };
-		CD16B9501BFB71C100BD776D /* Tiqr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tiqr.xcdatamodel; sourceTree = "<group>"; };
 		CD16B9531BFB71C600BD776D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Resources/General/Settings.bundle; sourceTree = "<group>"; };
 		CD16B9551BFB71CC00BD776D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9561BFB71CC00BD776D /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -123,6 +121,8 @@
 		CD16B95F1BFB71CC00BD776D /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9601BFB71CC00BD776D /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9611BFB71CC00BD776D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CD3028D51C4517820085EE7D /* Tiqr 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 2.xcdatamodel"; sourceTree = "<group>"; };
+		CD3028D61C4517820085EE7D /* Tiqr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tiqr.xcdatamodel; sourceTree = "<group>"; };
 		CD4F3BBD1BFB711E00E72491 /* NotificationRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationRegistration.h; sourceTree = "<group>"; };
 		CD4F3BBE1BFB711E00E72491 /* NotificationRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationRegistration.m; sourceTree = "<group>"; };
 		CD4F3BBF1BFB711E00E72491 /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
@@ -295,8 +295,8 @@
 		CD16B94E1BFB71B600BD776D /* General */ = {
 			isa = PBXGroup;
 			children = (
+				CD3028D41C4517820085EE7D /* Tiqr.xcdatamodeld */,
 				CD16B9621BFB71CC00BD776D /* Localizable.strings */,
-				CD16B9511BFB71C100BD776D /* Tiqr.xcdatamodeld */,
 				CD16B9531BFB71C600BD776D /* Settings.bundle */,
 			);
 			name = General;
@@ -867,7 +867,6 @@
 				D09986B51355EA2B004A7E8D /* blocked.html in Resources */,
 				CD87C3061BFB717D00F4D9D3 /* AuthenticationConfirmView.xib in Resources */,
 				CD87C30B1BFB717D00F4D9D3 /* EnrollmentSummaryView.xib in Resources */,
-				CD16B9521BFB71C100BD776D /* Tiqr.xcdatamodeld in Resources */,
 				9264226316C9552A00DE5202 /* Default-568h@2x.png in Resources */,
 				CD87C3091BFB717D00F4D9D3 /* AuthenticationSummaryView.xib in Resources */,
 				5ED9D44C190FD20A00801DE2 /* tiqr-80.png in Resources */,
@@ -892,6 +891,7 @@
 				CD4F3C401BFB711E00E72491 /* AuthenticationFallbackViewController.m in Sources */,
 				CD4F3C3A1BFB711E00E72491 /* StartViewController.m in Sources */,
 				CD4F3C2E1BFB711E00E72491 /* Identity.m in Sources */,
+				CD3028D71C4517820085EE7D /* Tiqr.xcdatamodeld in Sources */,
 				CD4F3C221BFB711E00E72491 /* NSData+Hex.m in Sources */,
 				CD4F3C421BFB711E00E72491 /* EnrollmentConfirmViewController.m in Sources */,
 				CD4F3C461BFB711E00E72491 /* IdentityListViewController.m in Sources */,
@@ -1171,16 +1171,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CD16B9511BFB71C100BD776D /* Tiqr.xcdatamodeld */ = {
+		CD3028D41C4517820085EE7D /* Tiqr.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CD16B94F1BFB71C100BD776D /* Tiqr 2.xcdatamodel */,
-				CD16B9501BFB71C100BD776D /* Tiqr.xcdatamodel */,
+				CD3028D51C4517820085EE7D /* Tiqr 2.xcdatamodel */,
+				CD3028D61C4517820085EE7D /* Tiqr.xcdatamodel */,
 			);
-			currentVersion = CD16B94F1BFB71C100BD776D /* Tiqr 2.xcdatamodel */;
+			currentVersion = CD3028D51C4517820085EE7D /* Tiqr 2.xcdatamodel */;
 			name = Tiqr.xcdatamodeld;
 			path = Resources/General/Tiqr.xcdatamodeld;
 			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
