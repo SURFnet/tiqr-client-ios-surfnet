@@ -56,6 +56,8 @@
 		CD4F3C491BFB711E00E72491 /* TiqrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3C1F1BFB711E00E72491 /* TiqrAppDelegate.m */; };
 		CD4F3C511BFB712300E72491 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3C4B1BFB712300E72491 /* MBProgressHUD.m */; };
 		CD4F3C521BFB712300E72491 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3C4E1BFB712300E72491 /* Reachability.m */; };
+		CD5722C81C6CA6020004263F /* ChallengeService.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5722C71C6CA6020004263F /* ChallengeService.m */; };
+		CD5722CA1C6CA6490004263F /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5722C91C6CA6490004263F /* LocalAuthentication.framework */; };
 		CD87C2E01BFB716100F4D9D3 /* cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2DE1BFB716100F4D9D3 /* cowbell.wav */; };
 		CD87C2E31BFB717400F4D9D3 /* animals.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2E11BFB717400F4D9D3 /* animals.ttf */; };
 		CD87C2E61BFB717800F4D9D3 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2E41BFB717800F4D9D3 /* images.xcassets */; };
@@ -89,8 +91,6 @@
 		D0A6F5D913533FB9000F9AE5 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A6F5D813533FB9000F9AE5 /* libiconv.dylib */; };
 		D0A6F5DB13533FEC000F9AE5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A6F5DA13533FEC000F9AE5 /* CoreVideo.framework */; };
 		D0A6F5DF13534015000F9AE5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A6F5DE13534015000F9AE5 /* CoreMedia.framework */; };
-		D0B2E0C71358C07C00125C34 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B2E0C61358C07C00125C34 /* AddressBook.framework */; };
-		D0B2E0CB1358C0EF00125C34 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B2E0CA1358C0EF00125C34 /* AddressBookUI.framework */; };
 		D0B2E0CD1358C0F600125C34 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B2E0CC1358C0F600125C34 /* AudioToolbox.framework */; };
 		D0DF04EB134F261B00893290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF04EA134F261B00893290 /* UIKit.framework */; };
 		D0DF04ED134F261B00893290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DF04EC134F261B00893290 /* Foundation.framework */; };
@@ -209,6 +209,9 @@
 		CD4F3C4B1BFB712300E72491 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		CD4F3C4D1BFB712300E72491 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		CD4F3C4E1BFB712300E72491 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CD5722C61C6CA6020004263F /* ChallengeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeService.h; sourceTree = "<group>"; };
+		CD5722C71C6CA6020004263F /* ChallengeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeService.m; sourceTree = "<group>"; };
+		CD5722C91C6CA6490004263F /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		CD87C2DE1BFB716100F4D9D3 /* cowbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cowbell.wav; sourceTree = "<group>"; };
 		CD87C2E11BFB717400F4D9D3 /* animals.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = animals.ttf; sourceTree = "<group>"; };
 		CD87C2E41BFB717800F4D9D3 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
@@ -262,9 +265,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5722CA1C6CA6490004263F /* LocalAuthentication.framework in Frameworks */,
 				D0B2E0CD1358C0F600125C34 /* AudioToolbox.framework in Frameworks */,
-				D0B2E0CB1358C0EF00125C34 /* AddressBookUI.framework in Frameworks */,
-				D0B2E0C71358C07C00125C34 /* AddressBook.framework in Frameworks */,
 				D0A6F5DB13533FEC000F9AE5 /* CoreVideo.framework in Frameworks */,
 				D0A6F5D913533FB9000F9AE5 /* libiconv.dylib in Frameworks */,
 				D0ECAFDD134F2C8A00374202 /* AVFoundation.framework in Frameworks */,
@@ -383,6 +385,8 @@
 		CD4F3BE91BFB711E00E72491 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				CD5722C61C6CA6020004263F /* ChallengeService.h */,
+				CD5722C71C6CA6020004263F /* ChallengeService.m */,
 				CD4F3BE31BFB711E00E72491 /* ServiceContainer.h */,
 				CD4F3BE41BFB711E00E72491 /* ServiceContainer.m */,
 				CD4F3BE51BFB711E00E72491 /* IdentityService.h */,
@@ -731,6 +735,7 @@
 		D0DF04E9134F261B00893290 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD5722C91C6CA6490004263F /* LocalAuthentication.framework */,
 				D0B2E0CC1358C0F600125C34 /* AudioToolbox.framework */,
 				D0B2E0CA1358C0EF00125C34 /* AddressBookUI.framework */,
 				D0B2E0C61358C07C00125C34 /* AddressBook.framework */,
@@ -912,6 +917,7 @@
 				CD4F3C251BFB711E00E72491 /* OCRAWrapper.m in Sources */,
 				CD4F3C261BFB711E00E72491 /* OCRAWrapper_v1.m in Sources */,
 				CD4F3C2D1BFB711E00E72491 /* EnrollmentConfirmationRequest.m in Sources */,
+				CD5722C81C6CA6020004263F /* ChallengeService.m in Sources */,
 				CD4F3C361BFB711E00E72491 /* TiqrToolbar.m in Sources */,
 				CD4F3C2B1BFB711E00E72491 /* AuthenticationConfirmationRequest.m in Sources */,
 				CD4F3C321BFB711E00E72491 /* IdentityService.m in Sources */,
