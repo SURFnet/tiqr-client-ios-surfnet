@@ -12,7 +12,6 @@
 		9264226316C9552A00DE5202 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264226216C9552A00DE5202 /* Default-568h@2x.png */; };
 		CD16B9541BFB71C600BD776D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD16B9531BFB71C600BD776D /* Settings.bundle */; };
 		CD16B9631BFB71CC00BD776D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD16B9621BFB71CC00BD776D /* Localizable.strings */; };
-		CD3028D71C4517820085EE7D /* Tiqr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD3028D41C4517820085EE7D /* Tiqr.xcdatamodeld */; };
 		CD4F3C211BFB711E00E72491 /* NotificationRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3BBE1BFB711E00E72491 /* NotificationRegistration.m */; };
 		CD4F3C221BFB711E00E72491 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3BC01BFB711E00E72491 /* NSData+Hex.m */; };
 		CD4F3C231BFB711E00E72491 /* NSString+DecodeURL.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3BC21BFB711E00E72491 /* NSString+DecodeURL.m */; };
@@ -77,6 +76,7 @@
 		CD87C30D1BFB717D00F4D9D3 /* IdentityListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2FA1BFB717D00F4D9D3 /* IdentityListView.xib */; };
 		CD87C30E1BFB717D00F4D9D3 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2FC1BFB717D00F4D9D3 /* AboutView.xib */; };
 		CD87C30F1BFB717D00F4D9D3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2FE1BFB717D00F4D9D3 /* MainWindow.xib */; };
+		CDF6A0FC1C74B27F00173BF3 /* Tiqr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF6A0F81C74B27F00173BF3 /* Tiqr.xcdatamodeld */; };
 		D076CF16134F48E400FE762A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D076CF15134F48E400FE762A /* Entitlements.plist */; };
 		D076CF24134F4E2900FE762A /* Icon-Pad.png in Resources */ = {isa = PBXBuildFile; fileRef = D076CF1B134F4E2900FE762A /* Icon-Pad.png */; };
 		D076CF25134F4E2900FE762A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D076CF1C134F4E2900FE762A /* Icon-Small-50.png */; };
@@ -121,8 +121,6 @@
 		CD16B95F1BFB71CC00BD776D /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9601BFB71CC00BD776D /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9611BFB71CC00BD776D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CD3028D51C4517820085EE7D /* Tiqr 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 2.xcdatamodel"; sourceTree = "<group>"; };
-		CD3028D61C4517820085EE7D /* Tiqr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tiqr.xcdatamodel; sourceTree = "<group>"; };
 		CD4F3BBD1BFB711E00E72491 /* NotificationRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationRegistration.h; sourceTree = "<group>"; };
 		CD4F3BBE1BFB711E00E72491 /* NotificationRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationRegistration.m; sourceTree = "<group>"; };
 		CD4F3BBF1BFB711E00E72491 /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
@@ -231,6 +229,9 @@
 		CD87C2FA1BFB717D00F4D9D3 /* IdentityListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdentityListView.xib; sourceTree = "<group>"; };
 		CD87C2FC1BFB717D00F4D9D3 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
 		CD87C2FE1BFB717D00F4D9D3 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CDF6A0F91C74B27F00173BF3 /* Tiqr 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 2.xcdatamodel"; sourceTree = "<group>"; };
+		CDF6A0FA1C74B27F00173BF3 /* Tiqr 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 3.xcdatamodel"; sourceTree = "<group>"; };
+		CDF6A0FB1C74B27F00173BF3 /* Tiqr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tiqr.xcdatamodel; sourceTree = "<group>"; };
 		D076CF15134F48E400FE762A /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		D076CF1B134F4E2900FE762A /* Icon-Pad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Pad.png"; sourceTree = "<group>"; };
 		D076CF1C134F4E2900FE762A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
@@ -297,7 +298,7 @@
 		CD16B94E1BFB71B600BD776D /* General */ = {
 			isa = PBXGroup;
 			children = (
-				CD3028D41C4517820085EE7D /* Tiqr.xcdatamodeld */,
+				CDF6A0F81C74B27F00173BF3 /* Tiqr.xcdatamodeld */,
 				CD16B9621BFB71CC00BD776D /* Localizable.strings */,
 				CD16B9531BFB71C600BD776D /* Settings.bundle */,
 			);
@@ -896,7 +897,6 @@
 				CD4F3C401BFB711E00E72491 /* AuthenticationFallbackViewController.m in Sources */,
 				CD4F3C3A1BFB711E00E72491 /* StartViewController.m in Sources */,
 				CD4F3C2E1BFB711E00E72491 /* Identity.m in Sources */,
-				CD3028D71C4517820085EE7D /* Tiqr.xcdatamodeld in Sources */,
 				CD4F3C221BFB711E00E72491 /* NSData+Hex.m in Sources */,
 				CD4F3C421BFB711E00E72491 /* EnrollmentConfirmViewController.m in Sources */,
 				CD4F3C461BFB711E00E72491 /* IdentityListViewController.m in Sources */,
@@ -932,6 +932,7 @@
 				CD4F3C301BFB711E00E72491 /* Challenge.m in Sources */,
 				CD4F3C2A1BFB711E00E72491 /* AuthenticationChallenge.m in Sources */,
 				CD4F3C3C1BFB711E00E72491 /* PINViewController.m in Sources */,
+				CDF6A0FC1C74B27F00173BF3 /* Tiqr.xcdatamodeld in Sources */,
 				CD4F3C2C1BFB711E00E72491 /* EnrollmentChallenge.m in Sources */,
 				CD4F3C211BFB711E00E72491 /* NotificationRegistration.m in Sources */,
 			);
@@ -1176,13 +1177,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CD3028D41C4517820085EE7D /* Tiqr.xcdatamodeld */ = {
+		CDF6A0F81C74B27F00173BF3 /* Tiqr.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CD3028D51C4517820085EE7D /* Tiqr 2.xcdatamodel */,
-				CD3028D61C4517820085EE7D /* Tiqr.xcdatamodel */,
+				CDF6A0F91C74B27F00173BF3 /* Tiqr 2.xcdatamodel */,
+				CDF6A0FA1C74B27F00173BF3 /* Tiqr 3.xcdatamodel */,
+				CDF6A0FB1C74B27F00173BF3 /* Tiqr.xcdatamodel */,
 			);
-			currentVersion = CD3028D51C4517820085EE7D /* Tiqr 2.xcdatamodel */;
+			currentVersion = CDF6A0FA1C74B27F00173BF3 /* Tiqr 3.xcdatamodel */;
 			name = Tiqr.xcdatamodeld;
 			path = Resources/General/Tiqr.xcdatamodeld;
 			sourceTree = "<group>";
