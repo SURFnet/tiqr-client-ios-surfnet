@@ -803,6 +803,11 @@
 				TargetAttributes = {
 					D0DF04E5134F261B00893290 = {
 						DevelopmentTeam = ZYJ4TZX4UU;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
