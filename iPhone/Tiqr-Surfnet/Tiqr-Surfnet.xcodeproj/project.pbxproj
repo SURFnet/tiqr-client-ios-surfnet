@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5ED9D44C190FD20A00801DE2 /* tiqr-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44A190FD20A00801DE2 /* tiqr-80.png */; };
 		5ED9D44D190FD20A00801DE2 /* tiqr-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9D44B190FD20A00801DE2 /* tiqr-120.png */; };
-		9264226316C9552A00DE5202 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9264226216C9552A00DE5202 /* Default-568h@2x.png */; };
 		CD16B9541BFB71C600BD776D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD16B9531BFB71C600BD776D /* Settings.bundle */; };
 		CD16B9631BFB71CC00BD776D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD16B9621BFB71CC00BD776D /* Localizable.strings */; };
 		CD4F3C211BFB711E00E72491 /* NotificationRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F3BBE1BFB711E00E72491 /* NotificationRegistration.m */; };
@@ -76,6 +75,8 @@
 		CD87C30D1BFB717D00F4D9D3 /* IdentityListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2FA1BFB717D00F4D9D3 /* IdentityListView.xib */; };
 		CD87C30E1BFB717D00F4D9D3 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2FC1BFB717D00F4D9D3 /* AboutView.xib */; };
 		CD87C30F1BFB717D00F4D9D3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2FE1BFB717D00F4D9D3 /* MainWindow.xib */; };
+		CDC3FAC61DFED8FC0077AE7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDC3FAC81DFED8FC0077AE7C /* InfoPlist.strings */; };
+		CDC3FAD91DFEDA5E0077AE7C /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC3FAD81DFEDA5E0077AE7C /* Launch Screen.xib */; };
 		CDF6A0FC1C74B27F00173BF3 /* Tiqr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF6A0F81C74B27F00173BF3 /* Tiqr.xcdatamodeld */; };
 		D076CF16134F48E400FE762A /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D076CF15134F48E400FE762A /* Entitlements.plist */; };
 		D076CF24134F4E2900FE762A /* Icon-Pad.png in Resources */ = {isa = PBXBuildFile; fileRef = D076CF1B134F4E2900FE762A /* Icon-Pad.png */; };
@@ -106,7 +107,6 @@
 /* Begin PBXFileReference section */
 		5ED9D44A190FD20A00801DE2 /* tiqr-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiqr-80.png"; path = "../../Tiqr/Tiqr/Resources/Images/tiqr-80.png"; sourceTree = "<group>"; };
 		5ED9D44B190FD20A00801DE2 /* tiqr-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tiqr-120.png"; path = "../../Tiqr/Tiqr/Resources/Images/tiqr-120.png"; sourceTree = "<group>"; };
-		9264226216C9552A00DE5202 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		CD16B9531BFB71C600BD776D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Resources/General/Settings.bundle; sourceTree = "<group>"; };
 		CD16B9551BFB71CC00BD776D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9561BFB71CC00BD776D /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -229,6 +229,23 @@
 		CD87C2FA1BFB717D00F4D9D3 /* IdentityListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdentityListView.xib; sourceTree = "<group>"; };
 		CD87C2FC1BFB717D00F4D9D3 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
 		CD87C2FE1BFB717D00F4D9D3 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CDC3FAC71DFED8FC0077AE7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAC91DFED8FD0077AE7C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FACA1DFED8FE0077AE7C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FACB1DFED8FE0077AE7C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FACC1DFED8FF0077AE7C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FACD1DFED8FF0077AE7C /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FACE1DFED9000077AE7C /* fy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fy; path = fy.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FACF1DFED9010077AE7C /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAD01DFED9020077AE7C /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr; path = sr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAD11DFED9020077AE7C /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAD21DFED9040077AE7C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAD31DFED9040077AE7C /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAD41DFED9050077AE7C /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CDC3FAD51DFED9060077AE7C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAD61DFED9060077AE7C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAD71DFED9060077AE7C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC3FAD81DFEDA5E0077AE7C /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		CDF6A0F91C74B27F00173BF3 /* Tiqr 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 2.xcdatamodel"; sourceTree = "<group>"; };
 		CDF6A0FA1C74B27F00173BF3 /* Tiqr 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Tiqr 3.xcdatamodel"; sourceTree = "<group>"; };
 		CDF6A0FB1C74B27F00173BF3 /* Tiqr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tiqr.xcdatamodel; sourceTree = "<group>"; };
@@ -681,6 +698,7 @@
 				CD87C2F81BFB717D00F4D9D3 /* Enrollment */,
 				CD87C2FB1BFB717D00F4D9D3 /* Identity */,
 				CD87C2FD1BFB717D00F4D9D3 /* About */,
+				CDC3FAD81DFEDA5E0077AE7C /* Launch Screen.xib */,
 				CD87C2FE1BFB717D00F4D9D3 /* MainWindow.xib */,
 			);
 			name = Views;
@@ -690,6 +708,7 @@
 		D076CF01134F31D300FE762A /* General */ = {
 			isa = PBXGroup;
 			children = (
+				CDC3FAC81DFED8FC0077AE7C /* InfoPlist.strings */,
 				D076CF15134F48E400FE762A /* Entitlements.plist */,
 				D0ECAF37134F28CC00374202 /* Tiqr-Info.plist */,
 			);
@@ -701,7 +720,6 @@
 			children = (
 				5ED9D44A190FD20A00801DE2 /* tiqr-80.png */,
 				5ED9D44B190FD20A00801DE2 /* tiqr-120.png */,
-				9264226216C9552A00DE5202 /* Default-568h@2x.png */,
 				D076CF21134F4E2900FE762A /* iTunesArtwork */,
 				D076CF1F134F4E2900FE762A /* Icon.png */,
 				D076CF20134F4E2900FE762A /* Icon@2x.png */,
@@ -803,6 +821,11 @@
 				TargetAttributes = {
 					D0DF04E5134F261B00893290 = {
 						DevelopmentTeam = ZYJ4TZX4UU;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -848,9 +871,11 @@
 				D076CF16134F48E400FE762A /* Entitlements.plist in Resources */,
 				CD87C3041BFB717D00F4D9D3 /* ScanView.xib in Resources */,
 				D076CF24134F4E2900FE762A /* Icon-Pad.png in Resources */,
+				CDC3FAC61DFED8FC0077AE7C /* InfoPlist.strings in Resources */,
 				CD87C2E61BFB717800F4D9D3 /* images.xcassets in Resources */,
 				CD87C30D1BFB717D00F4D9D3 /* IdentityListView.xib in Resources */,
 				CD87C3001BFB717D00F4D9D3 /* ErrorView.xib in Resources */,
+				CDC3FAD91DFEDA5E0077AE7C /* Launch Screen.xib in Resources */,
 				CD87C3021BFB717D00F4D9D3 /* StartView.xib in Resources */,
 				CD87C30A1BFB717D00F4D9D3 /* EnrollmentConfirmView.xib in Resources */,
 				D076CF25134F4E2900FE762A /* Icon-Small-50.png in Resources */,
@@ -873,7 +898,6 @@
 				D09986B51355EA2B004A7E8D /* blocked.html in Resources */,
 				CD87C3061BFB717D00F4D9D3 /* AuthenticationConfirmView.xib in Resources */,
 				CD87C30B1BFB717D00F4D9D3 /* EnrollmentSummaryView.xib in Resources */,
-				9264226316C9552A00DE5202 /* Default-568h@2x.png in Resources */,
 				CD87C3091BFB717D00F4D9D3 /* AuthenticationSummaryView.xib in Resources */,
 				5ED9D44C190FD20A00801DE2 /* tiqr-80.png in Resources */,
 				5ED9D44D190FD20A00801DE2 /* tiqr-120.png in Resources */,
@@ -962,6 +986,29 @@
 			path = Resources/General;
 			sourceTree = "<group>";
 		};
+		CDC3FAC81DFED8FC0077AE7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC3FAC71DFED8FC0077AE7C /* en */,
+				CDC3FAC91DFED8FD0077AE7C /* nl */,
+				CDC3FACA1DFED8FE0077AE7C /* de */,
+				CDC3FACB1DFED8FE0077AE7C /* es */,
+				CDC3FACC1DFED8FF0077AE7C /* fr */,
+				CDC3FACD1DFED8FF0077AE7C /* hr */,
+				CDC3FACE1DFED9000077AE7C /* fy */,
+				CDC3FACF1DFED9010077AE7C /* ro */,
+				CDC3FAD01DFED9020077AE7C /* sr */,
+				CDC3FAD11DFED9020077AE7C /* sk */,
+				CDC3FAD21DFED9040077AE7C /* ja */,
+				CDC3FAD31DFED9040077AE7C /* sl */,
+				CDC3FAD41DFED9050077AE7C /* pt-PT */,
+				CDC3FAD51DFED9060077AE7C /* nb */,
+				CDC3FAD61DFED9060077AE7C /* sv */,
+				CDC3FAD71DFED9060077AE7C /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		D09986B21355EA2B004A7E8D /* blocked.html */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1022,6 +1069,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = DISABLE_TOUCHID_SUPPORT;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",
@@ -1114,6 +1162,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DISABLE_TOUCHID_SUPPORT,
+					DEBUG,
+				);
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",
@@ -1137,6 +1189,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = DISABLE_TOUCHID_SUPPORT;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",

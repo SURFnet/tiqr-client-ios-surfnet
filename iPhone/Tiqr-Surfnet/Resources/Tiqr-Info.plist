@@ -53,7 +53,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.5.6</string>
+	<string>2.5.7</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -71,6 +71,8 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Tiqr uses the camera to scan QR-codes</string>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 	<key>SANotificationRegistrationURL</key>
@@ -85,6 +87,8 @@
 	</array>
 	<key>UIApplicationExitsOnSuspend</key>
 	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>still-camera</string>
