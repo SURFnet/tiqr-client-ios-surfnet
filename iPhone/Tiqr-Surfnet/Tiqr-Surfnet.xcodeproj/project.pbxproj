@@ -740,6 +740,7 @@
 				D0DF050F134F274F00893290 /* Surfnet */,
 				D0DF04E9134F261B00893290 /* Frameworks */,
 				D0DF04E7134F261B00893290 /* Products */,
+				DADA4C832010EDF4002F7732 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -789,6 +790,15 @@
 				D076CF01134F31D300FE762A /* General */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DADA4C832010EDF4002F7732 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				D0DF054A134F27B900893290 /* instructions.html */,
+				D09986B21355EA2B004A7E8D /* blocked.html */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1069,7 +1079,6 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = ""; /* DISABLE_TOUCHID_SUPPORT */;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",
@@ -1162,10 +1171,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					/* DISABLE_TOUCHID_SUPPORT, */
-					DEBUG,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",
@@ -1189,7 +1195,6 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Tiqr_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = ""; /* DISABLE_TOUCHID_SUPPORT; */
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../Tiqr/ZXing/iphone/ZXingWidget/Classes/**",
