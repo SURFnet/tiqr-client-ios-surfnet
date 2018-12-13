@@ -762,6 +762,7 @@
 		D0ECAFC4134F2A2E00374202 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CD69FB2821C269BB00247F92 /* Assets.xcassets */,
 				D076CF1A134F4E1300FE762A /* Images */,
 				D076CF01134F31D300FE762A /* General */,
 			);
