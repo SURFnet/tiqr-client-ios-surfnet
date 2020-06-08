@@ -74,10 +74,6 @@
 	<string>tiqrauth</string>
 	<key>TIQREnrollmentURLScheme</key>
 	<string>tiqrenroll</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>animals.ttf</string>
-	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIRequiredDeviceCapabilities</key>
