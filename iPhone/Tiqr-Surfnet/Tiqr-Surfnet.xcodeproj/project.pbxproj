@@ -57,7 +57,6 @@
 		CD69FB2321C120A800247F92 /* Tiqr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD69FB1E21C120A800247F92 /* Tiqr.xcdatamodeld */; };
 		CD69FB2921C269BB00247F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD69FB2821C269BB00247F92 /* Assets.xcassets */; };
 		CD87C2E01BFB716100F4D9D3 /* cowbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2DE1BFB716100F4D9D3 /* cowbell.wav */; };
-		CD87C2E31BFB717400F4D9D3 /* animals.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2E11BFB717400F4D9D3 /* animals.ttf */; };
 		CD87C2E61BFB717800F4D9D3 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2E41BFB717800F4D9D3 /* images.xcassets */; };
 		CD87C3001BFB717D00F4D9D3 /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2E71BFB717D00F4D9D3 /* ErrorView.xib */; };
 		CD87C3011BFB717D00F4D9D3 /* ErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD87C2E81BFB717D00F4D9D3 /* ErrorViewController.xib */; };
@@ -881,7 +880,6 @@
 				CD87C3061BFB717D00F4D9D3 /* AuthenticationConfirmView.xib in Resources */,
 				CD87C30B1BFB717D00F4D9D3 /* EnrollmentSummaryView.xib in Resources */,
 				CD87C3091BFB717D00F4D9D3 /* AuthenticationSummaryView.xib in Resources */,
-				CD87C2E31BFB717400F4D9D3 /* animals.ttf in Resources */,
 				CD87C2E01BFB716100F4D9D3 /* cowbell.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
