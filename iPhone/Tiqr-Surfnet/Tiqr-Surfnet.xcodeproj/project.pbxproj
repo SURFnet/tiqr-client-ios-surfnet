@@ -96,6 +96,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A11C6FA250A737A002D9FE0 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD16B9531BFB71C600BD776D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Resources/General/Settings.bundle; sourceTree = "<group>"; };
 		CD16B9551BFB71CC00BD776D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9561BFB71CC00BD776D /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -837,6 +838,7 @@
 				"pt-PT",
 				sl,
 				ja,
+				da,
 			);
 			mainGroup = D0DF04DB134F261B00893290;
 			productRefGroup = D0DF04E7134F261B00893290 /* Products */;
@@ -983,6 +985,7 @@
 				CDC3FAD51DFED9060077AE7C /* nb */,
 				CDC3FAD61DFED9060077AE7C /* sv */,
 				CDC3FAD71DFED9060077AE7C /* it */,
+				0A11C6FA250A737A002D9FE0 /* da */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
