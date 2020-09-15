@@ -97,6 +97,7 @@
 
 /* Begin PBXFileReference section */
 		0A11C6FA250A737A002D9FE0 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AB238572510B5C2000E8557 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9531BFB71C600BD776D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Resources/General/Settings.bundle; sourceTree = "<group>"; };
 		CD16B9551BFB71CC00BD776D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD16B9561BFB71CC00BD776D /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -961,6 +962,7 @@
 				CD16B95F1BFB71CC00BD776D /* nb */,
 				CD16B9601BFB71CC00BD776D /* sl */,
 				CD16B9611BFB71CC00BD776D /* ja */,
+				0AB238572510B5C2000E8557 /* da */,
 			);
 			name = Localizable.strings;
 			path = Resources/General;
